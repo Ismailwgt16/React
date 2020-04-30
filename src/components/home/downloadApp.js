@@ -4,9 +4,9 @@ import appStore from '../../assets/images/app_btn1.webp';
 import playStore from '../../assets/images/app_btn2.webp';
 import downloadImage from '../../assets/images/available-app.webp';
 
-const DowanloadApp = () => {
+const DowanloadApp = (props) => {
     return (
-        <div className="download__app">
+        <div className="download__app" id={props.id}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-5">

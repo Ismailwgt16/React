@@ -1,7 +1,7 @@
 import React from 'react';
 import CardCustom from './cardcustom';
 
-const Help = () => {  
+const Help = (props) => {  
     let helpData = [
         {
             HelpIcon: iconManage,
@@ -21,7 +21,7 @@ const Help = () => {
     ]
     
     return(
-        <div className="help">
+        <div className="help" id={props.id}>
             <div className="container">
                 <div className="headign__main">
                     <h2 className="text-center">How can we help You<br/> with Appco!</h2>

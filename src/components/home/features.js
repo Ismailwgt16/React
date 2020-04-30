@@ -4,7 +4,7 @@ import CardCustom from './cardcustom';
 import featureImage from '../../assets/images/best-features.webp'
 
 
-const Features = () => {
+const Features = (props) => {
 
     let features = [
 
@@ -28,7 +28,7 @@ const Features = () => {
     ]
 
     return (
-        <div className="features">
+        <div className="features" id={props.id}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">

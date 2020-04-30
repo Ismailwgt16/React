@@ -11,7 +11,7 @@ import appscreenTwo from '../../assets/images/App3.webp';
 
 
 
-const Screenshot = () => {  
+const Screenshot = (props) => {  
     const options = {
         items: 3,
         nav: true,
@@ -22,7 +22,7 @@ const Screenshot = () => {
     };  
     
     return (
-        <div className="app__screenshot">
+        <div className="app__screenshot" id={props.id}>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-4">

@@ -2,9 +2,9 @@ import React from 'react';
 import CardCustom from './cardcustom';
 
 
-const Plan = () => {
+const Plan = (props) => {
     return (
-        <div className="pricePlan">
+        <div className="pricePlan" id={props.id}>
             <div className="container">
                 <div className="headign__main text-center">
                     <h2>Choose Your Very Best <br/>Pricing Plan.</h2>

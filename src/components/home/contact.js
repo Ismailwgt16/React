@@ -2,9 +2,9 @@ import React from "react";
 import shape1 from '../../assets/images/say-shape-left.webp';
 import shape2 from '../../assets/images/say-shape-right.webp';
 
-const Contact = () => {
+const Contact = (props) => {
     return(
-        <div className="contact">
+        <div className="contact" id={props.id}>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-6">

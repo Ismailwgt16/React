@@ -10,7 +10,7 @@ import man3 from '../../assets/images/man3.webp';
 
 
 
-const Testimonials = () => {  
+const Testimonials = (props) => {  
     const options = {
         items: 3,
         nav: false,
@@ -21,7 +21,7 @@ const Testimonials = () => {
         center:true
     }; 
     return (
-        <div className="testimonials">
+        <div className="testimonials" id={props.id}>
 
             <div className="container">
                 <div className="headign__main text-center">

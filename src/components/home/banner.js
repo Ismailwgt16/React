@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import BannerImage1 from '../../assets/images/hero_right.webp';
 
 
-const Banner= ()=> {
+const Banner= (props)=> {
 
     const [index, setIndex] = useState(0);
 
@@ -35,7 +35,7 @@ const Banner= ()=> {
     ]    
 
     return(   
-        <div className="home__banner">     
+        <div className="home__banner" id={props.id} >     
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 {bannerData.map((bannerData, i) => (
                     <Carousel.Item key={i.toString()}>                       

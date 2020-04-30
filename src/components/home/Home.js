@@ -14,14 +14,14 @@ class Home extends Component {
 
       return (
         <div>
-          <Banner/>
-          <Features/>
-          <Help/>
-          <Screenshot/>
-          <Plan/>
-          <Testimonials/>
-          <DownloadApp/>
-          <Contact/>
+          <Banner id="banner"/>
+          <Features id="features"/>
+          <Help id="help"/>
+          <Screenshot id="screenshot"/>
+          <Plan id="plan"/>
+          <Testimonials id="testimonials"/>
+          <DownloadApp id="downloadApp" />
+          <Contact id="contact"/>
         </div>
       );
   }
